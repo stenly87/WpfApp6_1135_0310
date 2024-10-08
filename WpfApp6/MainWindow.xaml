@@ -11,7 +11,9 @@
         <TextBox Text="{Binding X}"/>
         <Label Content="y"/>
         <TextBox Text="{Binding Y}"/>
-        <Button Content="Plus" Click="Test"/>
+        <Button Content="Plus Get" Click="Test_Get"/>
+        <Button Content="Plus Post" Click="Test_Post"/>
         <TextBox Text="{Binding Result}"/>
+
     </StackPanel>
 </Window>
